@@ -1,0 +1,196 @@
+.t-button {
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #b7b7b7;
+  color: #9a9999;
+  cursor: pointer;
+  transition: all .3s;
+  outline: none;
+  margin: 8px;
+  font-size: 14px;
+  &:hover {
+    background-color: #e5e4e4;
+  }
+  &--primary {
+    background: #40c4f3;
+    color: #ffffff;
+    &:hover {
+      background-color: #17bbf3;
+    }
+  }
+  &--success {
+    background: #40e840;
+    color: #fff;
+    border: #40e840;
+    &:hover{
+      background-color: #37c537;
+    }
+  }
+  &--warning {
+    background: #eaba20;
+    color: #fff;
+    border: #eaba20;
+    &:hover {
+      background-color: #d7ab1d;
+    }
+  }
+  &--info {
+    background: #a1a0a0;
+    color: #fff;
+    border: #a9a7a7;
+    &:hover {
+      background-color: #868686;
+    }
+  }
+  &--danger {
+    background: #ef4545;
+    color: #fff;
+    border: #ef4545;
+    &:hover {
+      background-color: #f61e1e;
+    }
+  }
+  &--disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  &-icon {
+    margin-right: 6px;
+    position: relative;
+    top: 1px;
+  }
+  //边框
+  &--primary.t-button--border {
+    background: #c5ebfc;
+    color: #17bbf3;
+    border: 1px solid #17bbf3;
+    &:hover {
+      background-color: #90dbfc;
+    }
+  }
+  &--success.t-button--border {
+    background: #d0fdd0;
+    color: #40e840;
+    border: 1px solid #40e840;
+    &:hover{
+      background-color: #90f590;
+    }
+  }
+  &--warning.t-button--border {
+    background: #ffeab9;
+    color: #eaba20;
+    border: 1px solid #eaba20;
+    &:hover {
+      background-color: #f8da82;
+    }
+  }
+  &--info.t-button--border {
+    background: #e7e7e7;
+    color: #a9a7a7;
+    border: 1px solid #a9a7a7;
+    &:hover {
+      background-color: #cccbcb;
+    }
+  }
+  &--danger.t-button--border {
+    background: #faacac;
+    color: #ef4545;
+    border: 1px solid #ef4545;
+    &:hover {
+      background-color: #fa7979;
+    }
+  }
+  //圆形
+  &--circuar {
+    //width: 30px;
+    //height: 30px;
+    border-radius: 30px;
+  }
+  &--circuar.t-button--icon {
+    width: 30px;
+    height: 30px;
+    .t-button-icon {
+      position: relative;
+      top: 1px;
+      right: 7px;
+    }
+  }
+  //文字按钮
+  &--link.t-button--default {
+    border: 0;
+    background-color: transparent;
+    color: #9a9999;
+    padding: 0;
+    &:hover {
+      background-color: transparent;
+      color: #696868;
+    }
+  }
+  &--link.t-button--primary {
+    border: 0;
+    background-color: transparent;
+    color: #17bbf3;
+    padding: 0;
+    &:hover {
+      background-color: transparent;
+      color: #0494c5;
+    }
+  }
+  &--link.t-button--danger {
+    border: 0;
+    background-color: transparent;
+    color: #ef4545;
+    padding: 0;
+    &:hover {
+      background-color: transparent;
+      color: #c52121;
+    }
+  }
+  &--link.t-button--warning {
+    border: 0;
+    background-color: transparent;
+    color: #eaba20;
+    padding: 0;
+    &:hover {
+      background-color: transparent;
+      color: #d3a40e;
+    }
+  }
+  &--link.t-button--success {
+    border: 0;
+    background-color: transparent;
+    color: #40e840;
+    padding: 0;
+    &:hover {
+      background-color: transparent;
+      color: #15a915;
+    }
+  }
+  &--link.t-button--info {
+    border: 0;
+    background-color: transparent;
+    color: #706f6f;
+    padding: 0;
+    &:hover {
+      background-color: transparent;
+      color: #4d4c4c;
+    }
+  }
+
+  &-size--xs {
+    padding: 2px 4px;
+  }
+  &-size--sx {
+    padding: 4px 6px;
+  }
+  &-size--sm {
+    padding: 6px 8px;
+  }
+  &-size--ms {
+    padding: 8px 10px;
+  }
+  &-size--xm {
+    padding: 10px 12px;
+  }
+}
